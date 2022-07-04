@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <header>
+        <div class="highscore">
+        <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+        </div>
+        <div>
+        <h3>Time: <span class="timediv"></span></h3>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="quiz">
+                <div class="questionText">
+                </div>
+                <div class="questionChoice">
+                    <div id="option1" class="option"></div>
+                     <div id="option2" class="option"></div>
+                      <div id="option3" class="option"></div>
+                       <div id="option4" class="option"></div>
+                      <div id="show"></div>
+                </div>
+            </div>
+            <div class="quizHome">
+            <h2>Coding Quiz Challenge</h2>
+            <p>Try to answer to following code-related questions within the time limit.</p>
+            <p>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            </div>
+            <div class="form">
+                <h2>All done!</h2>
+                <p class="paraScore">Your final score is</p>
+                <p> Enter initials: <input type="text" class="name"><button class="formSubmit">Submit</button></p>
+            </div>
+            <div class="highScore">
+                <h2>Highscores</h2>
+<ol id="highScoresList"></ol>
+
+                <button class="goBack">Go Back</button>
+                
+                <button class="clear">Clear Highscores</button>
+            </div>
+            <button class="btn">Start Quiz</button>
+
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./assets/script.js"></script>
+    
+</body>
+
+</html>
