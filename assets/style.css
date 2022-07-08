@@ -46,6 +46,7 @@ header{
     border:none;
     padding:10px;
     border-radius:7px;
+    cursor: pointer;
 }
 .questionChoice{
  display:none;
@@ -61,6 +62,10 @@ header{
     border:none;
     padding:10px;
     border-radius:7px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color:lightseagreen;
 }
 .form{
     display:none;
@@ -87,5 +92,8 @@ header{
     margin-left: 10px;
 }
 #leaderboard{
+    cursor: pointer;
+}
+.formSubmit, .goBack, .clear{
     cursor: pointer;
 }
