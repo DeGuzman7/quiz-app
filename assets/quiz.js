@@ -166,11 +166,11 @@ $("#leaderboard").click(function (){
 });
 $(".clear").click(() => {
     localStorage.clear();
-    window.location.assign("/");
+    window.location.assign("");
 });
 $(".goBack").click(() => {
   
-    window.location.assign("../");
+    window.location.assign("");
 });
 
 
